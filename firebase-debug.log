@@ -1,0 +1,46 @@
+[debug] [2025-10-25T19:32:35.142Z] ----------------------------------------------------------------------
+[debug] [2025-10-25T19:32:35.149Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2025-10-25T19:32:35.149Z] CLI Version:   14.8.0
+[debug] [2025-10-25T19:32:35.149Z] Platform:      darwin
+[debug] [2025-10-25T19:32:35.149Z] Node Version:  v20.10.0
+[debug] [2025-10-25T19:32:35.149Z] Time:          Sat Oct 25 2025 12:32:35 GMT-0700 (Pacific Daylight Time)
+[debug] [2025-10-25T19:32:35.149Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-10-25T19:32:35.152Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-25T19:32:35.152Z] > authorizing via signed-in user (radyabdel95@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/boudi/Downloads/arvation-next-fixed
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-10-25T19:32:50.213Z] Checked if tokens are valid: true, expires at: 1761423518986
+[debug] [2025-10-25T19:32:50.213Z] Checked if tokens are valid: true, expires at: 1761423518986
+[debug] [2025-10-25T19:32:50.214Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-10-25T19:32:50.610Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-10-25T19:32:50.610Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project arvation-46d47 (Arvation) 
+[info] 
+=== Hosting Setup
+[debug] [2025-10-25T19:32:52.199Z] Checked if tokens are valid: true, expires at: 1761423518986
+[debug] [2025-10-25T19:32:52.200Z] Checked if tokens are valid: true, expires at: 1761423518986
+[debug] [2025-10-25T19:32:52.200Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/arvation-46d47 [none]
+[debug] [2025-10-25T19:32:52.336Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/arvation-46d47 200
+[debug] [2025-10-25T19:32:52.337Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/arvation-46d47 {"projectId":"arvation-46d47","projectNumber":"401760732851","displayName":"Arvation","name":"projects/arvation-46d47","resources":{"hostingSite":"arvation-46d47"},"state":"ACTIVE","etag":"1_4f1da817-718a-4657-8df1-b2aa0c9473b6"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
