@@ -1,25 +1,5 @@
-# Arvation — Next.js (App Router) + Tailwind + Netlify
+# Arvation website
 
-## Local dev
-```bash
-npm i
-npm run dev
-```
+Corporate homepage with six service areas and AI Lab Academy.
 
-## Build
-```bash
-npm run build
-npm start
-```
-
-## Netlify
-- Build command: `npm run build`
-- Publish directory: `.next`
-- Plugin: `@netlify/plugin-nextjs` (configured in netlify.toml)
-```toml
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-[build]
-  command = "npm run build"
-  publish = ".next"
-```
+Run `npm run build`; Netlify publishes `dist`. Contact inquiries open the visitor’s email application to hello@arvation.com.
